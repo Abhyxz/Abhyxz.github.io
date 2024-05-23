@@ -1,0 +1,14 @@
+/*
+    Name: Abhinav Jayakumar
+    Date: 2024-05-21
+    INFT 1206 Assignment 1
+    Description: Marking up a letter
+*/
+
+body{
+    font-family: Georgia;
+}
+
+.address{
+    text-align: right;
+}
