@@ -38,58 +38,47 @@
     font-size: 3rem;
     text-align: center;
   }
-  
   h3 {
     font-size: 2.2rem;
   }
-  
   p, li {
     font-size: 1.6rem;
     line-height: 1.5;
   }
-  
   header {
     margin-bottom: 10px;
     flex-flow: row wrap;
     display: flex;
   }
-  
-  
   main, header, nav, article, aside, footer, section {
     background-color: rgba(0,255,0,0.5);
     padding: 1%;
   }
-  
   h1 {
     flex: 5;
     text-transform: uppercase;
   }
-  
   header img {
     display: block;
     height: 60px;
     padding-top: 20.15px;
   }
-  
   nav {
     height: 50px;
     flex: 100%;
     display: flex;
   }
-  
   nav ul {
     padding: 0;
     list-style-type: none;
     flex: 2;
     display: flex;
   }
-  
   nav li {
     display: inline;
     text-align: center;
     flex: 1;
   }
-  
   nav a, nav span {
     display: inline-block;
     font-size: 2rem;
@@ -107,13 +96,11 @@
   article {
     flex: 4;
   }
-  
   aside {
     flex: 1;
     margin-left: 10px;
     padding: 1%;
   }
-  
   aside a {
     display: block;
     float: left;
@@ -123,7 +110,6 @@
   aside img {
     max-width: 120%;
   }
-  
   footer {
     margin-top: 10px;
   }
