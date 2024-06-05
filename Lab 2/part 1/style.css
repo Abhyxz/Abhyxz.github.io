@@ -4,91 +4,92 @@ File: style.css
 Date: 2024-06-02
 Description: Mozila splash page
 */  
-      /* header and body setup */
 
-      html {
-        font-family: 'Open Sans', sans-serif;
-        background: url(pattern.png);
-      }
+/* header and body setup */
 
-      body {
-        width: 100%;
-        max-width: 1200px;
-        margin: 0 auto;
-        background-color: white;
-        position: relative;
-      }
+html {
+    font-family: 'Open Sans', sans-serif;
+    background: url(Images/pattern.png);
+  }
 
-      /* Header styling */
+  body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+  }
 
-      header {
-        height: 150px;
-      }
+  /* Header styling */
 
-      header img {
-        width: 100px;
-        position: absolute;
-        right: 32.5px;
-        top: 32.5px;
-      }
+  header {
+    height: 150px;
+  }
 
-      h1 {
-        font-size: 50px;
-        line-height: 140px;
-        margin: 0 0 0 32.5px;
-      }
+  header img {
+    width: 100px;
+    position: absolute;
+    right: 32.5px;
+    top: 32.5px;
+  }
 
-      /* main section and video styling */
+  h1 {
+    font-size: 50px;
+    line-height: 140px;
+    margin: 0 0 0 32.5px;
+  }
 
-      main {
-        background: #ccc;
-      }
+  /* main section and video styling */
 
-      article {
-        padding: 20px;
-      }
+  main {
+    background: #ccc;
+  }
 
-      h2 {
-        margin-top: 0;
-      }
+  article {
+    padding: 20px;
+  }
 
-      p {
-        line-height: 2;
-      }
+  h2 {
+    margin-top: 0;
+  }
 
-      iframe {
-        float: left;
-        margin: 0 20px 20px 0;
-        max-width: 100%;
-      }
+  p {
+    line-height: 2;
+  }
 
-      /* further info links */
+  iframe {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 100%;
+  }
 
-      .further-info {
-        clear: left;
-        padding: 40px 0;
-        background: #c13832;
-        box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
-                    inset 0 -3px 2px rgba(0,0,0,0.5);
-      }
+  /* further info links */
 
-      .further-info a {
-        width: 25%;
-        display: block;
-        float: left;
-      }
+  .further-info {
+    clear: left;
+    padding: 40px 0;
+    background: #c13832;
+    box-shadow: inset 0 3px 2px rgba(0,0,0,0.5),
+                inset 0 -3px 2px rgba(0,0,0,0.5);
+  }
 
-      .further-info img {
-        max-width: 100%;
-      }
+  .further-info a {
+    width: 25%;
+    display: block;
+    float: left;
+  }
 
-      .clearfix {
-        clear: both;
-      }
+  .further-info img {
+    max-width: 100%;
+  }
 
-      /* Red panda image */
+  .clearfix {
+    clear: both;
+  }
 
-      .red-panda img {
-        display: block;
-        max-width: 100%;
-      }
+  /* Red panda image */
+
+  .red-panda img {
+    display: block;
+    max-width: 100%;
+  }
