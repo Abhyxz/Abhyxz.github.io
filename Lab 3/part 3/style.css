@@ -5,13 +5,6 @@
 	Description: Type Setting a community school homepage
 */
 
-/*
-  Name: Abhinav Jayakumar
-  File: style.css
-  Date: 2024-06-20
-  Description: Type Setting a community school homepage
-*/
-
 /* General setup */
 * {
   box-sizing: border-box;
@@ -56,16 +49,16 @@ header, footer {
 /* Fonts */
 @font-face {
   font-family: 'CustomFont1';
-  src: url("") format('woff2'),
-       url("") format('woff');
+  src: url('fonts/RobotoSlab-SemiBold.woff2') format('woff2'),
+       url('fonts/RobotoSlab-SemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'CustomFont2';
-  src: url('path/to/customfont2.woff2') format('woff2'),
-       url('path/to/customfont2.woff') format('woff');
+  src: url('fonts/LibreBaskerville-Bold.woff2') format('woff2'),
+       url('fonts/LibreBaskerville-Bold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
@@ -77,7 +70,7 @@ html {
 }
 
 h1, h2 {
-  font-family: '';
+  font-family: 'Decour Soft';
   letter-spacing: 0.1em;
 }
 
@@ -108,15 +101,22 @@ a:visited {
 a:hover, a:focus {
   text-decoration: none;
 }
-.img{ 
-  height: 14px;
+
+a.external::after {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  background-image: url('images/external-link-icon.png');
+  background-size: contain;
 }
+
 /* List styling */
 ul {
   list-style-type: square;
   margin-left: 1.5em;
 }
-
 ol {
   list-style-type: lower-alpha;
   margin-left: 1.5em;
@@ -142,7 +142,6 @@ nav ul li a {
   text-decoration: none;
   color: #a66;
   border: 1px solid #a66;
-  border-radius: 0px;
   font-family: 'Merriweather', serif;
   font-size: 1.6rem;
   transition: background-color 0.3s, color 0.3s;
