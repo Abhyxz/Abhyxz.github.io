@@ -70,7 +70,7 @@ html {
 }
 
 h1, h2 {
-  font-family: 'Decour Soft';
+  font-family: 'Libre Baskerville';
   letter-spacing: 0.1em;
 }
 
@@ -108,7 +108,7 @@ a.external::after {
   width: 12px;
   height: 12px;
   margin-left: 5px;
-  background-image: url('images/external-link-icon.png');
+  content: url('images/external-link-icon.png');
   background-size: contain;
 }
 
