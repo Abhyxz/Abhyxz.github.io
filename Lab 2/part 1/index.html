@@ -51,11 +51,17 @@
       </div>
 
       <div class="red-panda">
-        <picture>
+        <!--
+	<picture>
           <source sizes="(max-width: 600px) 100vw, 1200px"
                   srcset="Images/redpanda600.jpg 600w, Images/redpanda1200.jpg 1200w">
           <img src="Images/redpanda1200.jpg" alt="a red panda">
-        </picture>      
+	</picture>
+	-->
+	  <picture>
+            <source media="(max-width: 600px)" srcset="./Images/redpanda600.jpg">
+            <img src="./Images/redpanda1200.jpg" alt="a red panda">
+          </picture>      
       </div>
     </main>
   </body>
