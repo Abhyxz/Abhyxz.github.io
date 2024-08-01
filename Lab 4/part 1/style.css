@@ -8,24 +8,24 @@ Description: silly story generator
 body {
     font-family: helvetica, sans-serif;
     width: 350px;
-  }
+}
 
-  label {
+label {
     font-weight: bold;
-  }
+}
 
-  div {
+div {
     padding-bottom: 20px;
-  }
+}
 
-  input[type="text"] {
+input[type="text"] {
     padding: 5px;
     width: 150px;
-  }
+}
 
-  p {
+p {
     background: #ffc125;
     color: #5e2612;
     padding: 10px;
     visibility: hidden;
-  }
+}
