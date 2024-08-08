@@ -1,3 +1,8 @@
+// Name: Abhinav Jayakumar
+// Date: 2024-08-08
+// File Type: index.html
+// Description: Accessibility troubleshooting
+
 // functionality for showing/hiding the comments section
 const showHideBtn = document.querySelector('.show-hide');
 const commentWrapper = document.querySelector('.comment-wrapper');
