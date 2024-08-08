@@ -1,6 +1,6 @@
 // Name: Abhinav Jayakumar
 // Date: 2024-08-08
-// File Type: index.html
+// File Type: main.js
 // Description: Accessibility troubleshooting
 
 // functionality for showing/hiding the comments section
